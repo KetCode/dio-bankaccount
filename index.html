@@ -7,6 +7,29 @@
 	<title>Conta Bancária</title>
 </head>
 <body>
+	<main style="padding: 0px 20px; margin: 0px 30px;">
+		<h1 style="text-align: center;">Conta Bancária</h1>
+		<p>
+            <span style="background-color: #F5F5F5; border-radius: 5px; padding: 10px; display: table; margin: 0 auto; box-shadow: inset 0 0 8px #ddd;">Para utilizar a conta bancária faça uso do console. </span>
+            <br>
+            Crie uma constante para indicar que é sua conta, ex: const minhaConta = new ContaCorrente(1, 231, true) / ContaUniversitaria(5, 178) / ContaPoupanca(8, 041).
+            <p style="padding: 0 0 0 22px; font-style: oblique;"> A Conta Corrente é necessário colocar nos paramentos a agência, o número e se vai querer o cartão de credito (boolean).
+            <br>
+            A Conta Universitária é necessário colocar nos paramentos a agência e o número.
+            <br>
+            A Conta Corrente é necessário colocar nos paramentos a agência e o número. </p>
+            
+            Para fazer as operações com a conta pode-se fazer da seguinte forma informada a baixo e pode ser utilizada em qualquer tipo de conta.
+            <br>
+            <p style="padding: 0 0 0 22px; font-style: oblique;"> Para checar o saldo: minhaConta.saldo
+            <br>
+            Para depositar dinheiro: mihaConta.depositar(valor)
+            <br>
+            Para sacar dinheiro: minhaConta.sacar(valor)
+            </p>
+            <strong>Observação:</strong> A conta universitária não pode sacar mais de 500 reais.
+		</p>
+	</main>
 	<script src="ContaBancaria.js"></script>
 </body>
 </html>
